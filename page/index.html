@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice - HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="row">
+        <div class="logo">
+        </div>
+        <div class="banner">
+            <img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" class="logo" height="200px">
+
+            <img src="http://ftmb.uthm.edu.my/images/dinJPPO/gambarslideshow/BannerJPPO.jpg" height="200px"
+                 width="100%">
+            <div class="slogan">Too difficult to become a programmer</div>
+        </div>
+    </div>
+</div>
+
+<div class="body">
+    <form action="" method="post" name="register-form">
+        <div id="inputform">
+            <div class="row">
+                <div class="col-10">
+                    <h1>MEMBERS INFORMATION REGISTER</h1>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Full Name</label>
+                <div class="col-6">
+                    <input id="nameinput" type="text" name="fullName">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Email</label>
+                <div class="col-6">
+                    <input type="email" name="email">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Phone</label>
+                <div class="col-6">
+                    <input type="text" name="phone">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Gender</label>
+                <div class="col-2">
+                    <select id="sl" name="gender">
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                        <option value="2">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Hobbies</label>
+                <div class="col-6">
+                    <input id="c1" type="checkbox" name="hobby1"> Sports<br>
+                    <input id="c2" type="checkbox" name="hobby2"> Movie<br>
+                    <input id="c3" type="checkbox" name="hobby3"> Books<br>
+                    <input id="c4" type="checkbox" name="hobby4"> Music<br>
+                    <input id="c5" type="checkbox" name="hobby5"> Others
+                    <input type="text" id="otherinput" name="other-hobby">
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Introduce</label>
+                <div class="col-6">
+                    <textarea rows="5" id="introinput" name="intro"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-6">
+                    <input type="button" name="btnSubmit" value="Submit">
+                    <input type="reset" name="btnReset" value="Reset">
+                </div>
+            </div>
+        </div>
+        <div id="inforform" style="display:none">
+            <div class="row">
+                <div class="col-10">
+                    <h1>MEMBERS INFORMATION REGISTER</h1>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Full Name: </label>
+                <div class="col-6">
+                    <label id="name" class="col-5"></label>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Email</label>
+                <div class="col-6">
+                    <label id="email" class="col-5"></label>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Phone</label>
+                <div class="col-6">
+                    <label id="phone" class="col-5"></label>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Gender</label>
+                <div class="col-5">
+                    <select id="sli" name="gender" disabled>
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                        <option value="2">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Hobbies</label>
+                <div class="col-6">
+                    <input id="c1i" type="checkbox" name="hobby1" disabled> Sports<br>
+                    <input id="c2i" type="checkbox" name="hobby2" disabled> Movie<br>
+                    <input id="c3i" type="checkbox" name="hobby3" disabled> Books<br>
+                    <input id="c4i" type="checkbox" name="hobby4" disabled> Music<br>
+                    <input id="c5i" type="checkbox" name="hobby5" disabled> Others<br>
+                    <label id="other" class="col-3"></label>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Introduce</label>
+                <div class="col-6">
+                    <label id="intro" class="col-5"></label>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<hr>
+
+<div class="footer">
+    <div class="row">
+        <div class="col-12">
+            Nguyen Quynh Thu<br>
+            thunqth1807052@fpt.edu.vn <br>
+            T1809E
+        </div>
+    </div>
+</div>
+
+<script src="../js/javascript.js"></script>
+</body>
+</html>
